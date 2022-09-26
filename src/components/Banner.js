@@ -11,7 +11,7 @@ export const Banner = () => {
     const [text,setText] = useState('');
     const [delta, setDelta] = useState(300- Math.random()*100);
     const [index, setIndex] = useState(1);
-    const toRotate = [ "Web Developer", "Web Designer","UI/UX Designer"];
+    const toRotate = [ "Diseño Web", "Data Science","Bases de datos"];
     const period = 2000;
 
     useEffect(()=>{
@@ -51,10 +51,10 @@ export const Banner = () => {
             <Container>
                 <Row className='aligh-items-center'>
                     <Col xs={12} md={6} xl={7}>
-                        <span className='tag-line'>Welcome to my Portfolio</span>
-                        <h1>{`Hi I'm webdecoded `}<span className='wrap'>{text}</span></h1>
-                        <p>Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy Lorem Ipsum is simply dummy</p>
-                        <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
+                        <span className='tag-line'>Bienvenido a CodeGame Academy</span>
+                        <h2>{`Vuelvete un experto en diferentes tecnologias `}<br/><span className='wrap'>{text}</span></h2>
+                        <p>Aprende a utilizar nuevas herramientas y tecnologías para mejorar tus conocimientos practicos y crear grandes hazañas en el mundo laboral.</p>
+                        <button onClick={() => window.location.href='https://forms.zohopublic.com/CodeGame/form/EmailSubscription/formperma/wpMd75KheeHfi3hqkMW1SQIWF_Hn2aroG4ZcsSat3Ow'}>Registrate ahora <ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Headder Img"/>
