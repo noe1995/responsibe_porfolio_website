@@ -3,7 +3,7 @@ import { MailchimpForm } from "./MailchimpForm";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import logo from "../assets/img/logo.svg";
+import logo from '../assets/img/logo2.svg';
 
 export const Footer = () => {
     return(
@@ -18,7 +18,7 @@ export const Footer = () => {
                         <div className="social-icon">
                             <a href="#"><img src={navIcon1} alt="icon"/></a>
                             <a href="#"><img src={navIcon2} alt="icon"/></a>
-                            <a href="#"><img src={navIcon3} alt="icon"/></a>
+                            <a href="https://instagram.com/codegame_mexico?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
                         </div>
                         <p>Copyrigth 2022. All Rights Reserved</p>
                     </Col>

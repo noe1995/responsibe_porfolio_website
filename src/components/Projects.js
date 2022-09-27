@@ -4,15 +4,16 @@ import projImg1 from "../assets/img/csharp_x.png";
 import projImg2 from "../assets/img/uml_x.jpg";
 import projImg3 from "../assets/img/mysql_x.png";
 import projImg4 from "../assets/img/web_x.png";
-import projImg5 from "../assets/img/project-img3.png";
-import projImg6 from "../assets/img/project-img3.png";
+import projImg5 from "../assets/img/react_x.png";
+import projImg6 from "../assets/img/nodejs.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import { ArrowRightCircle } from 'react-bootstrap-icons';
 //import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
-  const projects = [
+  const programacion = [
     {
       title: "C#",
       description: "Curso intensivo programación orientada a objetos",
@@ -29,18 +30,18 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "HTML, CSS, JS",
+      description: "Diseño y desarrollo web",
       imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "ReactJS",
+      description: "Desarrollo de aplicaciones web Frontend",
       imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "NodeJS",
+      description: "Desarrollo de aplicaciones web Backend",
       imgUrl: projImg6,
     },
   ];
@@ -75,11 +76,11 @@ export const Projects = () => {
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          programacion.map((programacion, index) => {
                             return (
                               <ProjectCard
                                 key={index}
-                                {...project}
+                                {...programacion}
                                 />
                             )
                           })

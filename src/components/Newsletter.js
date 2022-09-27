@@ -26,7 +26,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
         <div className="newsletter-bx wow slideInUp">
           <Row>
             <Col lg={12} md={6} xl={5}>
-              <h3>Subscribe to our Newsletter<br></br> & Never miss latest updates</h3>
+              <h3>Suscribete a nuestro Newsletter y no te pierdes las noticias del mundo.</h3>
               {status === 'sending' && <Alert>Sending...</Alert>}
               {status === 'error' && <Alert variant="danger">{message}</Alert>}
               {status === 'success' && <Alert variant="success">{message}</Alert>}
@@ -34,9 +34,9 @@ export const Newsletter = ({ status, message, onValidated }) => {
             <Col md={6} xl={7}>
               <form onSubmit={handleSubmit}>
                 <div className="new-email-bx">
-                  <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
-                  <button type="submit">Submit</button>
+                <button onClick={() => window.location.href='https://forms.zohopublic.com/CodeGame/form/EmailSubscription/formperma/wpMd75KheeHfi3hqkMW1SQIWF_Hn2aroG4ZcsSat3Ow'}>Registrate ahora</button>
                 </div>
+                <p className="ppp">no spam lo prometo</p>
               </form>
             </Col>
           </Row>
