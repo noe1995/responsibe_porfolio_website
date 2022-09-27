@@ -51,7 +51,7 @@ export const Banner = () => {
             <Container>
                 <Row className='aligh-items-center'>
                     <Col xs={12} md={6} xl={7}>
-                        <span className='tag-line'>Bienvenido a CodeGame Academy</span>
+                        <span className='tag-line'>Visita CodeGame Academy</span>
                         <h2>{`Vuelvete un experto en diferentes tecnologias `}<br/><span className='wrap'>{text}</span></h2>
                         <p>Aprende a utilizar nuevas herramientas y tecnologías para mejorar tus conocimientos practicos y crear grandes hazañas en el mundo laboral.</p>
                         <button onClick={() => window.location.href='https://forms.zohopublic.com/CodeGame/form/EmailSubscription/formperma/wpMd75KheeHfi3hqkMW1SQIWF_Hn2aroG4ZcsSat3Ow'}>Registrate ahora <ArrowRightCircle size={25}/></button>
